@@ -65,3 +65,14 @@ console.log("Star triangle:");
 for (let i = 1; i <= 5; i++) {
     console.log("*".repeat(i));
 }
+
+// Print numbers 1-100
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+}
+
+// For...of with arrays
+const colors = ["pink", "white", "brown"];
+for (const color of colors) {
+    console.log(color);
+}
